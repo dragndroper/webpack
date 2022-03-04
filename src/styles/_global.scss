@@ -1,0 +1,29 @@
+$primaryColor: darkcyan;
+$secondaryColor: darkslategray;
+
+html {
+  font-family: generalFont;
+}
+
+img {
+  opacity: 70%;
+}
+
+
+h1 {
+  color: $primaryColor;
+}
+
+.container {
+  &__subtitle {
+    color: $secondaryColor;
+
+    display: block;
+    height: 140px;
+    background: url("../images/webpack.png") no-repeat;
+
+
+    display: flex;
+    justify-content: center;
+  }
+}

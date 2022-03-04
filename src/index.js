@@ -1,8 +1,10 @@
-import './styles.css'
+import './styles/index.scss'
+import $ from 'jquery'
+import 'bootstrap'
 
 const userStack = {
     language: 'JavaScript',
-    framework: 'Angular'
+    framework: 'React'
 }
 
 const user = {
@@ -10,5 +12,7 @@ const user = {
     age: 25,
     ...userStack
 }
+
+$('.block').html('jQuery is Working')
 
 console.log(user)
